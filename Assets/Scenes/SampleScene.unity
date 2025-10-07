@@ -2479,8 +2479,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d23977475e73e394aab3ac675ecf9a96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  move: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  grow: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   speed: 25
   maxSpeed: 25
+  growthSpeed: 3
+  shrinkSpeed: 1
+  targetScale: {x: 1, y: 1, z: 1}
 --- !u!114 &1812739217
 MonoBehaviour:
   m_ObjectHideFlags: 0
